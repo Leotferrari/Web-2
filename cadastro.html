@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initialscale=1.0">
+    <title>Interação com Formulários</title>
+    <link rel="stylesheet" type="text/css" href="css/cadastro.css">
+</head>
+<body>
+    <div class="menu">
+        <a class="inicio" href="index.html">Início</a>
+    </div>
+    <header class="header">
+        <h1>CADASTRO</h1>
+    </header>
+    <section id="cadastro">
+        <form id="form-cadastro" class="form-cadastro-header" action="https://api.sheetmonkey.io/form/j8vdSpCCbT5nxwF7twu8pi" method="post">
+            <main class="form-cadastro-content">
+                <label class ="form-cadastro-content-area" for="nome">Nome:</label>
+                <input type="text" name="nome" id="nome" size = "40" placeholder="Digite seu Nome"><br><br>
+
+                <label class ="form-cadastro-content-area" for="nome">Sobrenome:</label>
+                <input type="text" name="sobrenome" id="sobrenome" size = "40" placeholder="Sobrenome"><br><br>
+                
+                <label class ="form-cadastro-content-area" for="email">Email:</label>
+                <input type="email" name="email" id="email" size = "40" placeholder="Digite um e-mail válido"><br><br>
+                
+                <label class ="form-cadastro-content-area" for="CEP">
+                    <span>CEP:</span>
+                    <input type="number" name="cep" id="CEP"><br><br>
+                </label>    
+                
+                <label class ="form-cadastro-content-area" for="rua">
+                    <span>Endereço:</span>
+                    <input type="text" name="rua" id="rua">
+                </label>
+                
+                <label class ="form-cadastro-content-area" for="numero:">
+                    <span>Número:</span>
+                    <input type="number" name="numero" id="numero">
+                </label>
+                <label class ="form-cadastro-content-area" for="bairro">
+                    <span>Bairro:</span>
+                    <input type="text" name="bairro" id="bairro">
+                </label>
+
+                <label class ="form-cadastro-content-area" for="cidade">
+                    <span>Cidade:</span>
+                    <input type="text" name="cidade" id="cidade">
+                </label>
+
+                <label class ="form-cadastro-content-area" for="estado">
+                    <span>Estado:</span>
+                    <input type="text" name="estado" id="estado"><br></br>
+                </label>
+
+                <label class ="form-cadastro-content-area" for="telefone">Telefone:</label>
+                <input type="number" size="11" name="telefone" id="telefone" placeholder="Apenas números"><br><br>
+
+                <label class ="form-cadastro-content-area" for="login">Login:</label>
+                <input type="text" name="user" id="user" size = "40" placeholder="Login"><br><br>
+
+                <label class ="form-cadastro-content-area" for="senha">Senha:</label>
+                <input type="password" name="senha" id="senha" size = "40" placeholder="Senha"><br><br>
+                
+                <label class ="form-cadastro-content-area" for="confirmar senha">Confirmar senha:</label>
+                <input type="password" name="confirmSenha" id="confirmSenha" size = "40" placeholder="Confirmar senha"><br><br>
+                
+                <input name="Status" type="submit" value="Salvar" ><br><br>
+                
+
+
+            </main>
+            <script src="BuscaCEP.js"></script>
+        </form>
+    </section>
+</body>
